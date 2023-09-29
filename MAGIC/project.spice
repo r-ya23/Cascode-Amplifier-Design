@@ -1,0 +1,31 @@
+* SPICE3 file created from project.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 a_n14_n23# Vbias3 a_n27_n107# Gnd nfet w=20 l=4
++  ad=0 pd=0 as=0 ps=0
+M1001 a_73_n23# Vbias1 Vdd Vdd pfet w=48 l=4
++  ad=0 pd=0 as=0 ps=0
+M1002 a_n53_n71# Vbias3 gnd Gnd nfet w=10 l=4
++  ad=0 pd=0 as=0 ps=0
+M1003 a_n27_n107# Vbias4 gnd Gnd nfet w=20 l=4
++  ad=0 pd=0 as=0 ps=0
+M1004 a_38_n80# Vbias4 gnd Gnd nfet w=20 l=4
++  ad=0 pd=0 as=0 ps=0
+M1005 a_n53_n71# Vbiasb Vdd Vdd pfet w=48 l=4
++  ad=0 pd=0 as=0 ps=0
+M1006 Vbias2 Vbias2 Vdd Vdd pfet w=40 l=10
++  ad=0 pd=0 as=0 ps=0
+M1007 a_73_n80# Vbias4 gnd Gnd nfet w=20 l=4
++  ad=0 pd=0 as=0 ps=0
+M1008 Vbias2 Vbias3 a_38_n80# Gnd nfet w=20 l=4
++  ad=0 pd=0 as=0 ps=0
+M1009 a_88_n80# Vbias3 a_73_n80# Gnd nfet w=20 l=4
++  ad=0 pd=0 as=0 ps=0
+M1010 a_87_n23# Vbias2 a_73_n23# Vdd pfet w=48 l=4
++  ad=0 pd=0 as=0 ps=0
+M1011 a_n14_n23# Vbiasb Vdd Vdd pfet w=48 l=4
++  ad=0 pd=0 as=0 ps=0
+C0 Vdd a_73_n23# 2.10fF
+C1 gnd 0 2.03fF **FLOATING
+C2 Vdd 0 13.48fF **FLOATING

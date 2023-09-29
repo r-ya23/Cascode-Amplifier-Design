@@ -1,0 +1,7 @@
+Circuit: .option scale=0.09u
+
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Fatal Error: .option syntax error, unrecognized option: "scale"
